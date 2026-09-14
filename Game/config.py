@@ -9,7 +9,7 @@ Transforms (T_CAM_TO_BASE, T_BOARD_TO_BASE) will be computed by calibration scri
 import math
 import numpy as np
 
-ROBOT_IP = "98.168.40.27"          # Your UR3's IP address
+ROBOT_IP = "192.168.40.27"          # Your UR3's IP address
 HOME_JOINTS = [3.141592, -2.00712864, -1.13446401, -1.57079633, 1.57079633, 0.78539816]   # safe home (radians)
 
 
